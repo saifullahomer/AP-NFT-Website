@@ -1,101 +1,466 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- css link -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- title -->
-    <title>AP NFT Design</title>
-
-</head>
-
-<body>
-
-    <!-- navbar -->
-
-    <div class="nav__bar">
-
-        <div class="logo">
-            <img src="image/logo.png" alt="Logo AP NFT Design">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#751f26" />
+    <meta
+      name="description"
+      content="Jardin Obscur — perfumes with soul. Discover fragrances that tell your story."
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Jardin Obscur — Perfumes with Soul</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header>
+      <div class="header-main container">
+        <div class="socials">
+          <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noreferrer"><i data-icon="facebook"></i></a>
+          <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer"><i data-icon="instagram"></i></a>
+          <a href="https://www.youtube.com/" aria-label="YouTube" target="_blank" rel="noreferrer"><i data-icon="youtube"></i></a>
         </div>
-
-        <div class="nav__links">
-            <a href="#">
-                Home
-            </a>
-            <a href="#">
-                Explore
-            </a>
-            <a href="#">
-                Market Place
-            </a>
-            <a href="#">
-                Investor
-            </a>
-            <a href="#">
-                News
-            </a>
+        <a class="wordmark" href="#">- Jardin Obscur -</a>
+        <div class="header-contact">
+          <a href="mailto:jardinobscur@email.com">jardinobscur@email.com</a>
+          <button class="bag-button" id="bag-button" aria-label="Shopping bag, 0 items">
+            <i data-icon="shopping-bag" data-size="20"></i>
+            <span id="bag-count" hidden></span>
+          </button>
         </div>
+        <button class="mobile-menu" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <i data-icon="menu"></i>
+        </button>
+      </div>
+      <nav class="navigation" id="navigation" aria-label="Main navigation">
+        <a href="#about">About us</a>
+        <a href="#philosophy">Our Philosophy</a>
+        <a href="#best-sellers">Best Sellers</a>
+        <a href="#new-scent">New Scent</a>
+        <a href="#catalog">Catalog</a>
+        <a href="#faq">FAQ</a>
+        <a href="#testimonials">Testimonials</a>
+      </nav>
+    </header>
 
-        <div class="btns">
-
-            <a href="#">
-                <img src="image/carticon.png" alt="">
-            </a>
-
-            <a href="#" class="btn">
-                Buy Now
-            </a>
-
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-heading">
+        <img
+          class="hero-background"
+          src="images/discount.jpg"
+          alt="Woman holding an amber perfume bottle in soft burgundy light"
+          fetchpriority="high"
+        />
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">- PERFUMES WITH SOUL -</p>
+          <h1 id="hero-heading">Scents That<br />Tell <em>Your Story</em></h1>
+          <p>
+            More than fragrance — each bottle holds a memory, a moment, a mood
+            waiting to unfold on your skin.
+          </p>
+          <a href="#catalog" class="button outline light">Find Your Scent</a>
         </div>
+        <div class="hero-signature">
+          <em>Meet Our Signature Scents</em>
+          <span>FROM $29.99</span>
+        </div>
+      </section>
 
-    </div>
+      <section class="categories" aria-label="Shop fragrance categories">
+        <button class="category-card" data-category="Women">
+          <div><img src="images/satin.jpg" alt="Women fragrance collection" loading="lazy" /></div>
+          <span>Women <i data-icon="arrow-right" data-size="18"></i></span>
+        </button>
+        <button class="category-card" data-category="Men">
+          <div><img src="images/driftwood.jpg" alt="Men fragrance collection" loading="lazy" /></div>
+          <span>Men <i data-icon="arrow-right" data-size="18"></i></span>
+        </button>
+        <button class="category-card" data-category="New">
+          <div><img src="images/hand.jpg" alt="New fragrance collection" loading="lazy" /></div>
+          <span>New <i data-icon="arrow-right" data-size="18"></i></span>
+        </button>
+        <button class="category-card" data-category="Signature">
+          <div><img src="images/mineral.jpg" alt="Signature fragrance collection" loading="lazy" /></div>
+          <span>Signature <i data-icon="arrow-right" data-size="18"></i></span>
+        </button>
+      </section>
 
-    <div class="hero__section">
-
-        <div class="hero__content">
-            <h1 class="title">
-                GATHER YOUR <span>
-                    RARE NFT
-                </span> HAS ARIVED.
-            </h1>
-
-            <p class="paragraph">
-                Get started with the easiest and most secured platform to buy and trade digital
-                <span>
-                    ART and NFT’s
-                </span>
+      <section class="story section container" id="about">
+        <div class="story-main">
+          <div class="story-copy">
+            <p class="eyebrow">- BRAND HISTORY -</p>
+            <h2>Years of Craft, <em>Thousands</em><br />of Different Stories</h2>
+            <p class="lead">From subtle daytime — find a scent that moves with you.</p>
+            <p>
+              Behind every bottle lies a legacy of artistry and intention. For
+              years, we have been crafting fragrances that capture your very
+              best moments, emotions, and identity that fit to anyone.
             </p>
+            <p>
+              Our scents are born from meticulous blending, where tradition
+              meets modern olfactory storytelling. Whether you’re drawn to
+              something soft or unforgettable, there’s a story waiting to
+              unfold — uniquely yours.
+            </p>
+            <a class="journey" href="#catalog">
+              <span class="round-icon"><i data-icon="flask-conical"></i></span>
+              <span>
+                <h3><em>Pick Your Own Scent Journey</em></h3>
+                <p>
+                  Explore a selection of curated fragrance plans. Choose one
+                  that fits your style and pace.
+                </p>
+              </span>
+            </a>
+          </div>
+          <img
+            class="story-image"
+            src="images/botanical.jpg"
+            alt="Golden perfume surrounded by sculptural wood and botanicals"
+            loading="lazy"
+          />
+        </div>
+        <div class="timeline">
+          <article>
+            <span class="year">2005</span>
+            <h3>A Fragrant Beginning</h3>
+            <p>Single scent sparked a new vision.</p>
+            <span class="dot">•</span>
+          </article>
+          <article>
+            <span class="year">2010</span>
+            <h3>Craft Refined</h3>
+            <p>Tradition &amp; innovation found balance.</p>
+            <span class="dot">•</span>
+          </article>
+          <article>
+            <span class="year">2018</span>
+            <h3>Signature Scents</h3>
+            <p>Bold collections captured loyal hearts.</p>
+            <span class="dot">•</span>
+          </article>
+          <article>
+            <span class="year">2025</span>
+            <h3>Future in Every Bottle</h3>
+            <p>New ideas honor our rich heritage.</p>
+            <span class="dot">•</span>
+          </article>
+        </div>
+      </section>
 
-            <div class="btns">
+      <section class="philosophy" id="philosophy">
+        <img src="images/satin.jpg" alt="Golden perfume on silk with rose petals" loading="lazy" />
+        <div class="philosophy-copy">
+          <p class="eyebrow">- OUR PHILOSOPHY -</p>
+          <h2>Fragrance With<br />Meaning Begin <em>Your Story</em></h2>
+          <p class="lead">Crafted with care, inspired by emotion, designed to linger.</p>
+          <p>
+            We use ethically sourced ingredients, work with master perfumers,
+            and create in small batches to ensure integrity in every bottle —
+            each scent thoughtfully blended to reflect personal stories and
+            emotions.
+          </p>
+          <a href="#about" class="button">Learn More</a>
+        </div>
+        <img src="images/window.jpg" alt="Perfume and red blossoms in a sunlit room" loading="lazy" />
+      </section>
 
-                <a href="#" class="btn">Explore More</a>
-
-                
-                <div class="play">
-                    <div class="hover__circle"></div>
-                    <img src="image/playicon.png" alt="">
-                    <span>
-                        Show Video
-                    </span>
-                </div>
-
+      <section class="best-sellers section cream" id="best-sellers">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">- BEST SELLERS -</p>
+            <h2>Our <em>Most-Loved</em> Fragrances</h2>
+            <p>Click on the image to see product details and click Buy to add a product to cart.</p>
+          </div>
+          <div class="carousel" id="carousel" role="region" aria-roledescription="carousel" aria-label="Best-selling fragrances">
+            <button class="carousel-arrow previous" aria-label="Previous fragrances"><i data-icon="chevron-left"></i></button>
+            <div class="carousel-viewport">
+              <div class="best-grid is-animated"></div>
             </div>
-
-
+            <button class="carousel-arrow next" aria-label="Next fragrances"><i data-icon="chevron-right"></i></button>
+            <div class="carousel-controls">
+              <span class="carousel-position"></span>
+              <button class="carousel-playback"></button>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="hero__img">
-            <img src="image/heroimg.png" alt="">
+      <section class="notes section container" id="new-scent">
+        <div class="section-heading">
+          <p class="eyebrow">- NEW SCENT -</p>
+          <h2>Layers of <em>Scent</em> “Unfolding Like a Story”</h2>
+          <p>Every fragrance begins with a spark — a moment, a memory, a whisper of emotion.</p>
         </div>
+        <div class="notes-layout">
+          <div class="note-column">
+            <div class="note"><span>1ST NOTE</span><h3><em>Jasmine</em></h3><p>Softly charming.</p></div>
+            <div class="note"><span>2ND NOTE</span><h3><em>Rose</em></h3><p>Velvety &amp; romantic.</p></div>
+            <div class="note"><span>3RD NOTE</span><h3><em>Green tea</em></h3><p>Airy and fresh.</p></div>
+          </div>
+          <img src="images/floral.jpg" alt="Férox perfume with a deep pink rose and white jasmine" loading="lazy" />
+          <div class="note-column">
+            <div class="note"><span>4TH NOTE</span><h3><em>Vanilla</em></h3><p>Warm &amp; enveloping.</p></div>
+            <div class="note"><span>5TH NOTE</span><h3><em>Sandalwood</em></h3><p>Smooth and grounding.</p></div>
+            <div class="note"><span>6TH NOTE</span><h3><em>Musk</em></h3><p>Sensual &amp; lasting.</p></div>
+          </div>
+        </div>
+      </section>
 
+      <section class="catalog section cream" id="catalog">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">- OUR PRODUCTS -</p>
+            <h2>Our <em>Scents</em> Catalog</h2>
+            <p>We manufacture all kind of products that support small and micro businesses. Here are some of them:</p>
+          </div>
+          <div class="catalog-layout">
+            <aside class="filters" aria-label="Product filters">
+              <h3>Filters</h3>
+              <div class="filter-group" id="category-filters">
+                <h4>Category <span>⌃</span></h4>
+                <button class="active" data-filter="All">All</button>
+                <button data-filter="Signature">Signature</button>
+                <button data-filter="New">New</button>
+                <button data-filter="Men">Men</button>
+                <button data-filter="Women">Women</button>
+              </div>
+              <div class="filter-group">
+                <h4><label for="price">Price</label><span>⌃</span></h4>
+                <input id="price" type="range" min="12.5" max="55" step="0.5" value="55" />
+                <div class="price-range">
+                  <span>12.50</span>
+                  <output for="price" id="price-output">55.00</output>
+                </div>
+              </div>
+            </aside>
+            <div>
+              <div class="catalog-grid" id="catalog-grid"></div>
+              <p class="empty-state" id="empty-state" hidden>
+                No fragrances match these filters. Try a different category or price.
+              </p>
+              <button class="button outline show-more" id="show-more" hidden>Show More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="editorial-grid" aria-label="The world of Jardin Obscur">
+        <img src="images/hand.jpg" alt="An intimate fragrance ritual" loading="lazy" />
+        <div class="editorial-copy">
+          <h3><em>Enjoy exclusive winter season savings!</em></h3>
+          <a class="button outline" href="#catalog">Our Catalog <i data-icon="arrow-right" data-size="18"></i></a>
+        </div>
+        <img src="images/mineral.jpg" alt="Élan Silencieux signature perfume" loading="lazy" />
+        <img src="images/window.jpg" alt="Perfume among sunlit flowers" loading="lazy" />
+        <img src="images/driftwood.jpg" alt="Fresh woody perfume" loading="lazy" />
+        <img src="images/floral.jpg" alt="A floral perfume composition" loading="lazy" />
+        <div class="editorial-copy">
+          <h3><em>When fragrance speaks<br />louder than words.</em></h3>
+          <a class="button outline" href="#best-sellers">Best Sellers <i data-icon="arrow-right" data-size="18"></i></a>
+        </div>
+        <img src="images/botanical.jpg" alt="Golden fragrance and natural botanicals" loading="lazy" />
+      </section>
+
+      <section class="find-scent">
+        <p class="eyebrow">- FIND YOUR SCENT -</p>
+        <h2>Discover <em>the Essence</em> that Defines You</h2>
+        <p>
+          Find a scent that speaks your truth — subtle or bold, familiar or unexplored.
+          <br />
+          Let your fragrance reflect the feeling you want to carry.
+        </p>
+        <a href="#catalog" class="button">Find Your Scent</a>
+      </section>
+
+      <section class="faq section container" id="faq">
+        <div class="section-heading">
+          <p class="eyebrow">- FAQ -</p>
+          <h2>Fragrances for <em>Every Moment</em> of Your Day</h2>
+          <p>From subtle daytime elegance to bold evening statements — find a scent that moves with you.</p>
+        </div>
+        <div class="faq-layout">
+          <div>
+            <h3>Do You Have Questions?</h3>
+            <p class="italic">We’ve Got Your Answers.</p>
+            <p>
+              Whether you’re finding your signature scent or picking a gift,
+              we’re here to help. Explore answers about perfumes, orders, and
+              samples — for a smooth, delightful experience.
+            </p>
+            <div class="accordion">
+              <details>
+                <summary>How long does the scent typically last?<i data-icon="plus" data-size="20"></i></summary>
+                <p>Our eau de parfum is designed to linger for 6–8 hours. Lasting power varies with your skin, the fragrance, and the weather. Apply to pulse points for the best experience.</p>
+              </details>
+              <details>
+                <summary>How can I make the order?<i data-icon="plus" data-size="20"></i></summary>
+                <p>Explore the catalog, select your favorite fragrance, and add it to your bag. This storefront is a preview; payments and order fulfillment will be connected before launch.</p>
+              </details>
+              <details>
+                <summary>Do you offer samples or discovery sets?<i data-icon="plus" data-size="20"></i></summary>
+                <p>A little exploration is the perfect way to find your scent. Contact us to learn about discovery sets and available samples.</p>
+              </details>
+              <details>
+                <summary>Are your ingredients cruelty-free and ethical?<i data-icon="plus" data-size="20"></i></summary>
+                <p>Our philosophy is rooted in thoughtfully sourced ingredients and care for the world around us. Contact us for ingredient and sourcing details for each fragrance.</p>
+              </details>
+            </div>
+          </div>
+          <img class="faq-image" src="images/satin.jpg" alt="The details of a carefully crafted perfume bottle" loading="lazy" />
+        </div>
+        <div class="benefits">
+          <article>
+            <span class="round-icon"><i data-icon="sprout"></i></span>
+            <h3>Eco-friendly</h3>
+            <span class="short-rule"></span>
+            <p>Crafted with care for sustainability.</p>
+            <span class="dot">•</span>
+          </article>
+          <article>
+            <span class="round-icon"><i data-icon="truck"></i></span>
+            <h3>Fast Delivery</h3>
+            <span class="short-rule"></span>
+            <p>Your scent, fast and safe delivery.</p>
+            <span class="dot">•</span>
+          </article>
+          <article>
+            <span class="round-icon"><i data-icon="gift"></i></span>
+            <h3>Free Shipping</h3>
+            <span class="short-rule"></span>
+            <p>Free shipping on every order.</p>
+            <span class="dot">•</span>
+          </article>
+          <article>
+            <span class="round-icon"><i data-icon="ticket-percent"></i></span>
+            <h3>Special Discount</h3>
+            <span class="short-rule"></span>
+            <p>Special savings just for you.</p>
+            <span class="dot">•</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="testimonials section cream" id="testimonials">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">- CUSTOMERS ABOUT US -</p>
+            <h2>Why They <em>Fell in Love</em> at First Scent</h2>
+            <p>We are a customer-oriented company, and our values drive us to achieve more.</p>
+          </div>
+          <div class="testimonial-layout">
+            <img class="testimonial-photo" src="images/hand.jpg" alt="A customer's daily perfume ritual" loading="lazy" />
+            <div class="testimonial-quote">
+              <span class="quote-mark">“</span>
+              <p id="review-quote"></p>
+              <div class="review-person">
+                <span class="review-avatar"><i data-icon="flower-2"></i></span>
+                <div>
+                  <h3><em id="review-name"></em></h3>
+                  <span id="review-role"></span>
+                </div>
+              </div>
+              <button class="review-prev" id="review-prev" aria-label="Previous testimonial"><i data-icon="chevron-left"></i></button>
+              <button class="review-next" id="review-next" aria-label="Next testimonial"><i data-icon="chevron-right"></i></button>
+            </div>
+          </div>
+          <div class="image-strip">
+            <a href="#catalog"><img src="images/satin.jpg" alt="Explore our fragrance collection" loading="lazy" /></a>
+            <a href="#catalog"><img src="images/driftwood.jpg" alt="Explore our fragrance collection" loading="lazy" /></a>
+            <a href="#catalog"><img src="images/mineral.jpg" alt="Explore our fragrance collection" loading="lazy" /></a>
+            <a href="#catalog"><img src="images/window.jpg" alt="Explore our fragrance collection" loading="lazy" /></a>
+            <a href="#catalog"><img src="images/floral.jpg" alt="Explore our fragrance collection" loading="lazy" /></a>
+            <a href="#catalog"><img src="images/botanical.jpg" alt="Explore our fragrance collection" loading="lazy" /></a>
+          </div>
+          <div class="newsletter">
+            <h2>Subscribe to Our <em>Newsletter</em></h2>
+            <form id="newsletter-form">
+              <label class="sr-only" for="newsletter-email">Your email address</label>
+              <input id="newsletter-email" type="email" required placeholder="Enter your e-mail*" />
+              <button class="button outline" type="submit" id="newsletter-button"></button>
+              <p class="form-message" role="status" id="newsletter-message"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="offer-strip">
+      <em>
+        Celebrate the beauty of the season with 15% off your order — just use
+        code <strong>WINTER15</strong> at checkout and let your signature scent
+        tell a story of winter elegance.
+      </em>
     </div>
 
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <h3>Jardin Obscur</h3>
+            <p>
+              <em>
+                Every fragrance tells a unique story, capturing moments that
+                linger long after the day begins and fades.
+              </em>
+            </p>
+            <div class="socials">
+              <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noreferrer"><i data-icon="facebook"></i></a>
+              <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer"><i data-icon="instagram"></i></a>
+              <a href="https://www.youtube.com/" aria-label="YouTube" target="_blank" rel="noreferrer"><i data-icon="youtube"></i></a>
+            </div>
+          </div>
+          <div>
+            <h3>About</h3>
+            <span class="short-rule"></span>
+            <a href="#about">About us</a>
+            <a href="#philosophy">Our Philosophy</a>
+            <a href="#new-scent">New Scent</a>
+            <a href="#faq">FAQ</a>
+          </div>
+          <div>
+            <h3>Shop</h3>
+            <span class="short-rule"></span>
+            <a href="#best-sellers">Best Sellers</a>
+            <a href="#catalog">Catalog</a>
+            <a href="#new-scent">Special Selections</a>
+            <a href="#testimonials">Testimonials</a>
+          </div>
+          <div class="footer-contact">
+            <h3>Address</h3>
+            <p>Head office in London - 36 Regent</p>
+            <h3>Phone</h3>
+            <a href="tel:+12345678900">+1 (234) 567 89 00</a>
+            <h3>E-mail</h3>
+            <a href="mailto:jardinobscur@email.com">jardinobscur@email.com</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© <span id="year"></span> Jardin Obscur</span>
+          <span>All rights Reserved</span>
+        </div>
+      </div>
+    </footer>
 
-</body>
+    <div class="toast" role="status" id="toast" hidden>
+      <i data-icon="check" data-size="18"></i>
+      <span id="toast-text"></span>
+      <button id="toast-view">View bag</button>
+    </div>
 
+    <dialog class="modal" id="product-modal">
+      <button class="close-button" aria-label="Close"><i data-icon="x"></i></button>
+      <div class="product-detail" id="product-detail"></div>
+    </dialog>
+
+    <dialog class="modal" id="bag-modal" aria-label="Your shopping bag">
+      <button class="close-button" aria-label="Close"><i data-icon="x"></i></button>
+      <div class="bag-content" id="bag-content"></div>
+    </dialog>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

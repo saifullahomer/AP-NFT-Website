@@ -1,0 +1,116 @@
+[
+  {
+    "name": "01-hero",
+    "mode": "built-in image_gen",
+    "file": "public/images/hero.jpg",
+    "prompt": "Use case: ads-marketing. Asset type: perfume website hero photograph, landscape 16:9. Photoreal luxury perfume campaign on a seamless deep burgundy red background (#771f26). Far left: a beautiful adult woman's softly lit face in profile, cropped editorial portrait with natural skin texture fading into burgundy shadow. Middle 40%: completely uncluttered rich burgundy negative space for website text. Right: four clear glass perfume bottles containing warm amber and pale lavender fragrance, elegant minimal caps and labels, arranged at varying heights on sand-colored cylindrical podiums. Dramatic warm studio lighting, polished glass reflections, sophisticated luxury editorial photography. Tiny bottle branding only: 'Jardin Obscur' where legible. No overlaid words, no headline, no watermark. Wide balanced composition."
+  },
+  {
+    "name": "02-golden-satin",
+    "mode": "built-in image_gen",
+    "file": "public/images/satin.jpg",
+    "prompt": "Use case: product-mockup. Asset type: portrait perfume editorial product photograph, 2:3 aspect ratio. A single elegant rectangular clear glass perfume bottle filled with golden amber fragrance, substantial faceted crystal stopper, minimal ivory label reading 'Jardin Obscur'. Bottle nestled on richly draped champagne satin, close macro still life, a few soft dusty pink rose petals nearby. Warm soft light, graceful satin highlights and deep folds, fine photographic realism, perfume bottle is main subject, luxury magazine styling. No overlaid words or watermark."
+  },
+  {
+    "name": "03-green-driftwood",
+    "mode": "built-in image_gen",
+    "file": "public/images/driftwood.jpg",
+    "prompt": "Use case: product-mockup. Asset type: square perfume product photograph. Single pale green translucent cylindrical perfume bottle with a polished silver cylindrical cap, tiny tasteful label 'Jardin Obscur'. Bottle resting elegantly inside the curve of sculptural weathered driftwood, pale warm beige studio background. Organic wood texture, pale mineral green fragrance, soft diffused daylight and delicate shadows, premium editorial photography, centered bottle clearly visible. No overlaid text or watermark."
+  },
+  {
+    "name": "04-hand-window",
+    "mode": "built-in image_gen",
+    "file": "public/images/hand.jpg",
+    "prompt": "Use case: photorealistic-natural. Asset type: square luxury perfume lifestyle photograph. Close crop of an adult woman's graceful hand holding a clear amber glass perfume atomizer near a sunlit window, delicate natural fingers, warm sunlight passes through liquid creating golden reflections. Minimal ivory label 'Jardin Obscur', silver atomizer. Soft cream curtains and blurred elegant room in background. Intimate candid editorial, natural skin texture, sophisticated warm palette, shallow depth of field. No overlaid words, no watermark."
+  },
+  {
+    "name": "05-purple-rocks",
+    "mode": "built-in image_gen",
+    "file": "public/images/mineral.jpg",
+    "prompt": "Use case: product-mockup. Asset type: square perfume product photograph. Single cylindrical pale lavender transparent glass perfume bottle with silver atomizer and elegant silver cap, tiny minimal label 'Jardin Obscur', nestled among sculptural white mineral rocks. Neutral light gray studio background, soft diffused light, crisp natural rock texture and beautiful realistic glass highlights, centered bottle, quiet premium luxury fragrance styling. No overlaid words, no watermark."
+  },
+  {
+    "name": "06-amber-botanical",
+    "mode": "built-in image_gen",
+    "file": "public/images/botanical.jpg",
+    "prompt": "Use case: ads-marketing. Asset type: square luxury perfume still life photograph. Single rectangular clear glass bottle filled with amber perfume, substantial crystal stopper, minimal ivory label reading 'Jardin Obscur'. Surreal suspended composition: bottle floating diagonally among sculptural pieces of driftwood and a few rich green botanical leaves. Burnt amber to near-black backdrop, dramatic warm rim light through glass, sumptuous moody luxury campaign, crisp realistic materials and finely balanced composition. No overlaid words or watermark."
+  },
+  {
+    "name": "07-windowsill-blossoms",
+    "mode": "built-in image_gen",
+    "file": "public/images/window.jpg",
+    "prompt": "Use case: photorealistic-natural. Asset type: portrait 2:3 luxury perfume editorial photograph. Elegant rectangular amber perfume bottle with crystal cap and white label reading 'Jardin Obscur', resting on a sunlit pale stone windowsill beside delicate red blossoms in a small clear glass vase. Airy refined cream-colored luxury interior, soft linen curtain, morning sunlight and subtle shadows, warm amber glows through bottle, intimate quiet still life. Photorealistic, natural textures and polished magazine quality. No overlaid words or watermark."
+  },
+  {
+    "name": "08-rose-jasmine",
+    "mode": "built-in image_gen",
+    "file": "public/images/floral.jpg",
+    "prompt": "Use case: product-mockup. Asset type: landscape wide 3:2 luxury perfume still life photograph. Golden square clear glass perfume bottle with broad faceted crystal stopper and minimal ivory label reading 'Jardin Obscur', paired with a lush magenta rose and small white jasmine blossoms on a clean white studio background. Bottle slightly right of center, rose and jasmine arranged elegantly beside its base, delicate green foliage, soft grounding shadows. Bright refined high-end beauty advertising, sparkling realistic glass and golden fragrance. No overlaid words or watermark."
+  },
+  {
+    "name": "09-green-catalog",
+    "mode": "built-in image_gen",
+    "file": "public/images/green.jpg",
+    "prompt": "Use case: product-mockup. Asset type: square catalog perfume product photograph. One minimal pale green rectangular translucent glass perfume bottle with a clean gold cap, small tasteful ivory label reading 'Jardin Obscur'. Isolated centered upright against an off-white seamless background (#f7f4f0), generous breathing room, entire bottle visible, soft subtle shadow beneath. Clean premium ecommerce photography, accurate straight geometry, realistic glass and pale green fragrance, soft even studio lighting. No other objects, no overlaid words, no watermark."
+  },
+  {
+    "name": "10-amber-catalog",
+    "mode": "built-in image_gen",
+    "file": "public/images/amber.jpg",
+    "prompt": "Use case: product-mockup. Asset type: square catalog perfume product photograph. One elegant rectangular clear glass perfume bottle filled with warm amber fragrance, polished silver cylindrical cap, small tasteful ivory label reading 'Jardin Obscur'. Isolated centered upright against off-white seamless background (#f7f4f0), generous breathing room, entire bottle visible, soft subtle shadow beneath. Clean premium ecommerce photography, realistic thick glass, precise geometry and soft even studio lighting. No other objects, no overlaid words, no watermark."
+  },
+  {
+    "name": "11-amour",
+    "mode": "built-in image_gen",
+    "file": "public/images/amour.jpg",
+    "prompt": "Use case: product-mockup. Asset type: square catalog perfume product photo. Centered single bottle isolated upright on seamless warm-white #fdfcfb background with ample margins, entire bottle visible, subtle soft grounding shadow, clean premium ecommerce photography. Soft even studio lighting, realistic glass, precise geometry. A round clear amber glass perfume bottle, circular disk-shaped body, elegant polished gold cap. Tasteful minimal small label branding 'Jardin Obscur'; no overlaid words, no watermark, no props."
+  },
+  {
+    "name": "12-ashen",
+    "mode": "built-in image_gen",
+    "file": "public/images/ashen.jpg",
+    "prompt": "Use case: product-mockup. Asset type: square catalog perfume product photo. Centered single bottle isolated upright on seamless warm-white #fdfcfb background with ample margins, entire bottle visible, subtle soft grounding shadow, clean premium ecommerce photography. Soft even studio lighting, realistic glass, precise geometry. A pale blush pink opaque glass perfume bottle, rounded rectangular body, large round dark burgundy cap, understated sophisticated silhouette. Tasteful minimal small label branding 'Jardin Obscur'; no overlaid words, no watermark, no props."
+  },
+  {
+    "name": "13-bleu",
+    "mode": "built-in image_gen",
+    "file": "public/images/bleu.jpg",
+    "prompt": "Use case: product-mockup. Asset type: square catalog perfume product photo. Centered single bottle isolated upright on seamless warm-white #fdfcfb background with ample margins, entire bottle visible, subtle soft grounding shadow, clean premium ecommerce photography. Soft even studio lighting, realistic glass, precise geometry. A short cylindrical clear glass perfume bottle with pale yellow fragrance, wide opaque black cylindrical cap, understated sophisticated silhouette. Tasteful minimal small label branding 'Jardin Obscur'; no overlaid words, no watermark, no props."
+  },
+  {
+    "name": "14-eclat",
+    "mode": "built-in image_gen",
+    "file": "public/images/eclat.jpg",
+    "prompt": "Use case: product-mockup. Asset type: square catalog perfume product photo. Centered single bottle isolated upright on seamless warm-white #fdfcfb background with ample margins, entire bottle visible, subtle soft grounding shadow, clean premium ecommerce photography. Soft even studio lighting, realistic glass, precise geometry. A pale ice-blue translucent rectangular perfume bottle, tall polished silver cylindrical cap, elegant clean silhouette. Tasteful minimal small label branding 'Jardin Obscur'; no overlaid words, no watermark, no props."
+  },
+  {
+    "name": "15-elan",
+    "mode": "built-in image_gen",
+    "file": "public/images/elan.jpg",
+    "prompt": "Use case: product-mockup. Asset type: square catalog perfume product photo. Centered single bottle isolated upright on seamless warm-white #fdfcfb background with ample margins, entire bottle visible, subtle soft grounding shadow, clean premium ecommerce photography. Soft even studio lighting, realistic glass, precise geometry. A pale lavender cylindrical clear glass perfume bottle with exposed silver atomizer spray top, no cap, elegant clean silhouette. Tasteful minimal small label branding 'Jardin Obscur'; no overlaid words, no watermark, no props."
+  },
+  {
+    "name": "16-ferox",
+    "mode": "built-in image_gen",
+    "file": "public/images/ferox.jpg",
+    "prompt": "Use case: product-mockup. Asset type: square catalog perfume product photo. Centered single bottle isolated upright on seamless warm-white #fdfcfb background with ample margins, entire bottle visible, subtle soft grounding shadow, clean premium ecommerce photography. Soft even studio lighting, realistic glass, precise geometry. A square rectangular thick clear glass perfume bottle filled with golden amber fragrance, broad faceted crystal stopper and polished gold collar. Tasteful minimal small label branding 'Jardin Obscur'; no overlaid words, no watermark, no props."
+  },
+  {
+    "name": "17-discount",
+    "mode": "built-in image_gen",
+    "file": "public/images/discount.jpg",
+    "prompt": "Use case: ads-marketing. Asset type: landscape 16:9 luxury perfume promotional banner photograph. Deep burgundy red seamless background #771f26, left and middle 65% of image completely empty rich burgundy negative space for website text. On far right, an elegant adult woman's face and shoulder in dark silhouette and softly illuminated profile, holding a small amber glass perfume close to her face. Dark hair, graceful hand, moody warm rim light picks out face and perfume, romantic luxurious editorial photograph, rich shadows, realistic skin and glass. No overlaid words, no headline, no watermark."
+  },
+  {
+    "name": "18-bonne",
+    "mode": "built-in image_gen",
+    "file": "public/images/bonne.jpg",
+    "prompt": "Use case: product-mockup. Asset type: square catalog perfume product photo. A single tall slim cylindrical clear glass perfume bottle containing pale golden fragrance with a matte black cylindrical cap. Small tasteful ivory label reading exactly 'BONNE FEUX'. Centered upright isolated on seamless off-white warm #fdfcfb background with ample margins, entire bottle visible, subtle soft grounding shadow. Clean premium ecommerce photography, soft even studio lighting, realistic glass and precise elegant geometry. Bottle silhouette notably taller and slimmer than a typical short wide cylinder. No props, no overlaid words, no watermark."
+  },
+  {
+    "name": "19-velour",
+    "mode": "built-in image_gen",
+    "file": "public/images/velour.jpg",
+    "prompt": "Use case: product-mockup. Asset type: square catalog perfume product photo. A single elegant rectangular clear glass perfume bottle containing pale champagne fragrance with a cream-colored cylindrical cap. Small tasteful ivory label reading exactly 'VELOUR ECLIPSE'. Centered upright isolated on seamless off-white warm #fdfcfb background with ample margins, entire bottle visible, subtle soft grounding shadow. Clean premium ecommerce photography, soft even studio lighting, realistic thick glass and precise elegant geometry. No props, no overlaid words, no watermark."
+  }
+]
